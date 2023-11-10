@@ -1,0 +1,18 @@
+{
+  "name": "adil-gm-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests:ui:chrome": "playwright test --config=playwright-ui.config.ts --project=chromium",
+    "tests:ui:firefox": "playwright test --config=playwright-ui.config.ts --project=firefox",
+    "tests:ui:webkit": "playwright test --config=playwright-ui.config.ts --project=webkit",
+    "tests:ui": "playwright test --config=playwright-ui.config.ts",
+    "tests:api": "playwright test --config=playwright-api.config.ts --debug"
+  },
+  "author": "Adil",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.37.0"
+  }
+}
