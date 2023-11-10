@@ -1,4 +1,4 @@
-# Gerimedica Assignment
+# GM Assignment
 
 This repository hosts automated tests for Demo QA, a platform demonstrating both UI and API functionalities. The tests cover a range of scenarios on Demo QA's [UI](https://demoqa.com/) and [API](https://demoqa.com/swagger), instructed in the assignment document.
 
